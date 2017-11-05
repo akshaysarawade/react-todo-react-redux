@@ -1,0 +1,68 @@
+body {
+    background: #e5e3e3;
+}
+
+.container {
+    max-width: 100%;
+}
+
+input {
+  margin: 10px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 14px;
+  padding-left: 15px;
+}
+
+.task-list {
+  margin-top: 30px;
+}
+
+.list-header {
+  background: #969494;
+  padding: 25px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.form-inline {
+  float: left;
+  width: 90%;
+}
+
+.form-inline ~ .task-counter {
+  margin-top: 12px;
+  margin-right: 40px;
+  padding: 5px 15px;
+  line-height: 1.4;
+  text-align: center;
+  font-size: 11px;
+  background: #ffffff;
+  float: right;
+}
+
+.task-counter {
+  background: #ffffff;
+  float: right;
+  padding: 5px 15px;
+  margin: -28px 0px;
+  line-height: 1.4;
+  text-align: center;
+  font-size: 11px;
+}
+
+.count {
+  font-weight: bold;
+  color: black;
+}
+
+.task-text {
+  color: #969494;
+  text-transform: uppercase;
+}
+
+.total-counter {
+  padding-right: 40px;
+}
